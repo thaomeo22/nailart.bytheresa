@@ -1,0 +1,9 @@
+{
+  "title": "Salon Setup — Simple inventory system",
+  "series": "Salon Setup",
+  "drive_folder": "1BvS9N6ZrGMP65RryA9T2BGyQop2IOs0Q",
+  "voice": {},
+  "sources": {},
+  "asr_prompt": "Theresa, salon owner in Toronto, Simple inventory system",
+  "grade": "colortemperature=temperature=4200:mix=0.7,eq=saturation=1.1:contrast=1.05,vignette=angle=PI/4.5"
+}

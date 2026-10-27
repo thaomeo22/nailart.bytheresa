@@ -1,0 +1,9 @@
+{
+  "title": "Salon Setup — What the BodySafe inspector checks",
+  "series": "Salon Setup",
+  "drive_folder": "14zVZBKUX6rQydqNJtY2Gmj9dSoy1hEtw",
+  "voice": {},
+  "sources": {},
+  "asr_prompt": "Theresa, salon owner in Toronto, What the BodySafe inspector checks",
+  "grade": "colortemperature=temperature=4200:mix=0.7,eq=saturation=1.1:contrast=1.05,vignette=angle=PI/4.5"
+}

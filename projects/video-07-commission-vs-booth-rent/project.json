@@ -1,0 +1,9 @@
+{
+  "title": "Salon Setup — Commission or booth rent?",
+  "series": "Salon Setup",
+  "drive_folder": "1S7l4cA2cGJlc8j8j_xfGu86EnyODuePV",
+  "voice": {},
+  "sources": {},
+  "asr_prompt": "Theresa, salon owner in Toronto, Commission or booth rent?",
+  "grade": "colortemperature=temperature=4200:mix=0.7,eq=saturation=1.1:contrast=1.05,vignette=angle=PI/4.5"
+}

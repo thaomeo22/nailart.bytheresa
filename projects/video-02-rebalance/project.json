@@ -1,0 +1,10 @@
+{
+  "title": "FYF ep 35 — Rebalance a grown-out set",
+  "series": "Fix Your Foundation",
+  "drive_folder": "1D3m6ClIRhhDIySrC9DejfzFsATIrx2H6",
+  "voice": {},
+  "sources": {},
+  "asr_prompt": "Theresa, Fix Your Foundation, Rebalance a grown-out set",
+  "grade": "colortemperature=temperature=4200:mix=0.7,eq=saturation=1.1:contrast=1.05,vignette=angle=PI/4.5",
+  "episode": 35
+}
