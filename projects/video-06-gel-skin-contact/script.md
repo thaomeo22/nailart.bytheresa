@@ -4,36 +4,39 @@ Series: Fix Your Foundation · episode 37
 Thư mục Drive: https://drive.google.com/drive/folders/18Jqotvi498YNX5Fs_2gC-h6s8hROmoe7
 
 ## Hook
-Gel allergies don't happen overnight — they happen one tiny skin touch at a time.
+Gel allergies don't happen overnight
 
-## Script ghi âm
+## Script ghi âm (bản chủ kênh đã sửa 27/10)
 Gel allergies don't happen overnight. They happen one tiny skin touch at a time.
 
 Hey, I'm Theresa. Fix Your Foundation, episode 37: keeping gel off the skin.
 
 When the British Association of Dermatologists looked at nearly 5,000 patients tested at skin clinics, 2.4 percent were allergic to at least one methacrylate — the chemicals in gel. And once you're allergic, it usually doesn't go away.
 
-So, four habits. One: leave a tiny gap at the cuticle and sidewalls. Gel should never touch skin.
+So, four habits. One: choose a high quality gel. Try not to let the gel touch skin.
 
-Two: if it floods, clean it up before you cure — not after.
+Two: if it floods, clean it up as soon as posible.
 
 Three: cure fully, with the right lamp. Under-cured gel raises the risk.
 
-Four: protect yourself too. No uncured gel on bare fingers, and wipe your brush on a towel, not your hand.
+Four: nail tech! protect yourself too. Wear gloves, No uncured gel on bare fingers, or wipe your brush on a piece of paper towel, not your hand.
 
 Follow Fix Your Foundation to master every technique fundamental. I'm Theresa — see you.
 
 ## Caption đăng
-Methacrylates in gel are one of the most common causes of nail-related contact allergy — and every touch of uncured gel on skin adds up, for your clients and for you. Leave a gap, clean floods before curing, cure fully, protect your own hands.
+Methacrylates in gel are a common cause of nail-related contact allergy — and every touch of uncured gel on skin adds up, for your clients and for you. Choose a quality gel and keep it off the skin, clean floods right away, cure fully with the right lamp, and wear gloves.
 
 Have you ever seen a client react to gel? 👇
 
 #fixyourfoundation #nailtech #gelallergy #hema #gelnails #naileducation
 
-Độ dài: 142 từ ≈ 51 giây
+Độ dài: 146 từ ≈ 52 giây
+
+## Ghi chú
+Sửa nhỏ khi thu: "as soon as possible". Gợi ý (tuỳ bạn): ở ý Two nói rõ "before you cure" — gel tràn mà hơ luôn sẽ đông cứng trên da.
 
 ## Gợi ý cảnh quay
-Đặt gel chừa khe nhỏ ở cuticle (macro), dùng cây gỗ lau gel tràn trước khi hơ, tay khách trong đèn, thợ đeo găng, lau cọ trên khăn.
+Chai gel, đặt gel chừa khe nhỏ ở cuticle (macro), lau gel tràn bằng cây gỗ, tay khách trong đèn, thợ đeo găng, lau cọ trên khăn giấy.
 
 ## Video tham khảo
 The Salon Life — 6 ways to avoid skin contact with gel (https://www.youtube.com/watch?v=_9PUgeELG3U) — tham khảo chủ đề.

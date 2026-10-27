@@ -4,36 +4,33 @@ Series: Salon Setup
 Thư mục Drive: https://drive.google.com/drive/folders/1DOP5Pfn-_N4w7EpCP2ADIyfTWGO2DiYo
 
 ## Hook
-One allergic reaction can cost you more than a year of insurance.
+Is your salon protected? 4 types of insurance to ask about
 
-## Script ghi âm
-One client's allergic reaction can cost you more than a year of insurance.
+## Script ghi âm (bản chủ kênh đã sửa 27/10)
+Is your salon protected?
 
-Hi, I'm Theresa, a salon owner in Toronto. Here are four types of insurance I'd never open a salon without.
+Hi, I'm Theresa, a salon owner in Toronto. Here are four types of coverage I'd want in my salon insurance.
 
-One: general liability. A client slips on a wet floor — this covers injuries and damage that happen at your salon.
+One: general liability. If a client slips on a wet floor and gets hurt, this can help protect your business against a claim.
 
-Two: professional liability. This one covers your actual work — an allergic reaction, an infection, a damaged nail.
+Two: professional liability. This can help protect you against claims related to your services, like an allergic reaction, an infection, or an injury during a treatment.
 
-Three: property. Your chairs, lamps, furniture and stock — if there's a fire, a flood, or a break-in.
+Three: property coverage. This helps protect your chairs, furniture, equipment, and stock if they're damaged by a covered event, like a fire or a break-in. Ask about water damage and flood coverage separately.
 
-Four: business interruption. If you have to close for repairs, it helps cover lost income while the rent keeps coming.
+Four: business interruption. If a covered event forces your salon to close for repairs, this can help cover lost income and ongoing expenses, like rent.
 
-And read your lease — many landlords ask for proof of liability insurance before you even get the keys. Talk to a broker who knows salons.
+These coverages may be available in one salon insurance package, but don't assume they're all included. Read your lease and ask a broker to explain your coverage, limits, and exclusions.
 
 Follow me for more salon business tips.
 
 ## Caption đăng
-General liability, professional liability, property, and business interruption — the four policies that protect your salon when something goes wrong. Check your lease too: many landlords want proof of insurance before handover.
+General liability, professional liability, property, and business interruption — four coverages to ask about for your salon. They may come in one package, but don't assume they're all included: check limits, exclusions, water and flood damage, and what your lease requires.
 
-Which one did you skip when you opened? 👇
+When did you last review your salon insurance? 👇
 
 #salonsetup #nailsalon #salonowner #nailbusiness #smallbusinesscanada #torontonails
 
-Độ dài: 143 từ ≈ 51 giây
-
-## Ghi chú
-[xác nhận] câu "I'd never open a salon without" — đúng là tiệm bạn có đủ 4 loại? Nếu muốn nói mức phí thật của bạn thì thêm 1 câu.
+Độ dài: 168 từ ≈ 60 giây
 
 ## Gợi ý cảnh quay
 Khách bước vào tiệm (sàn sạch), khách ngồi làm móng, kệ đèn + ghế + hàng, hồ sơ / hợp đồng thuê trên bàn, khoá cửa tiệm.
