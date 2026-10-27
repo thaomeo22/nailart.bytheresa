@@ -20,6 +20,7 @@
 | 15 | SS — Chọn nhà cung cấp | Script đợt #2 → chờ sửa, thu voice + up | Doc "Script đợt 27/10 #2" | |
 | 16 | FYF ep 42 — Dual Form đổi dáng móng | Script đợt #2 → chờ sửa, thu voice + up | Doc "Script đợt 27/10 #2" | |
 | 17 | SS — Vốn ban đầu mở tiệm | Script đợt #2 → chờ số thật + thu voice | Doc "Script đợt 27/10 #2" | [xác nhận $] |
+| 18 | SS — Monthly operating costs (14 costs) | Final, chờ góp ý | Notion | Video thô "14 cost.mp4" chủ kênh tự dựng; giữ cảnh + màu gốc |
 
 ## Nhật ký việc
 | Ngày | Agent | Việc |
@@ -32,3 +33,4 @@
 | 27/10/2026 | viết script | Doc "Script đợt 27/10 — bản hoàn chỉnh (video 02–06, 08)": script chủ kênh sửa + hook, caption, cảnh quay, nguồn khớp |
 | 27/10/2026 | lưu | Lưu bản chủ kênh chốt video 02–06, 08 (video 08 đổi sang "tools") |
 | 27/10/2026 | nghiên cứu + viết script | Đợt #2 (video 10–17): 8 chủ đề chủ kênh chọn, script từ nghiên cứu, Doc "Script đợt 27/10 #2" + 8 thư mục |
+| 27/10/2026 | dựng video | Video 18 (14 costs): phụ đề + đồ hoạ branding Salon Setup (Montserrat/Open Sans, #ff802e), giữ màu gốc; QA đạt, gửi trong chat |
