@@ -1,0 +1,24 @@
+{
+  "ten_xuong": "nailart.bytheresa",
+  "linh_vuc": "Mọi chủ đề về nails: kinh doanh tiệm nails, hướng dẫn kỹ thuật, mẫu nails, vlog đời sống tiệm; được tự research thêm chủ đề liên quan đến nails",
+  "language": "en",
+  "ngon_ngu_chat": "vi",
+  "chu_kenh": {
+    "mo_ta": "Chủ kênh nail [xác nhận: nghề, số năm kinh nghiệm, nơi sống / làm việc — chủ kênh chưa cung cấp]",
+    "xung_ho": "I – you, giọng thân mật như nói chuyện với bạn bè"
+  },
+  "kenh_mau": [
+    {"ten": "Krystal Oh", "url": "https://www.youtube.com/channel/UCZjy7LamZd5pMW7O0JF_3Nw/videos", "mang": "kinh doanh tiệm + vlog"},
+    {"ten": "NailKnowHow by Julie Ventura", "url": "https://www.youtube.com/channel/UC6wnJ9f-7aMHikVBNyIssEw/videos", "mang": "kỹ thuật"},
+    {"ten": "nailed by dache", "url": "https://www.youtube.com/channel/UCFTHiHoDK_8-IqcirrY_r2w/videos", "mang": "mẫu nails"}
+  ],
+  "content_plan_sheet_id": "",
+  "video": {"khung": "1080x1920", "do_dai_giay": [30, 60], "y_chinh": "2-3"},
+  "caption": {"hashtag_mac_dinh": ["#nails", "#nailart", "#nailtech", "#nailsalon", "#nailinspo", "#nailbusiness"]},
+  "drive": {
+    "goc": "1sgBkRYohsTArxElwRSLP1rK-9ljts6jI",
+    "ke_hoach": "1QcKERdmWkw89NmuWk1TVPkxjNgPzCWdB",
+    "final_video": "1YdU_ZEICUoNYxH4mE5kDyDRpi2qu63SY"
+  },
+  "ban_do_url": "https://claude.ai/artifact/85ZyGywYSDKaD2NUWFyNEP"
+}

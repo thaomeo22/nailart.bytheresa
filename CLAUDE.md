@@ -1,6 +1,6 @@
 # Xưởng video tự động
 
-Đội agent sản xuất video ngắn dọc 9:16. **Mọi thông tin riêng của xưởng nằm trong `studio.json`** (tên xưởng, lĩnh vực, chủ kênh, kênh mẫu, ngôn ngữ, id thư mục Drive, link bản đồ). Đọc file đó trước mọi việc. Nói chuyện với chủ kênh bằng ngôn ngữ trong `studio.json` (`language`).
+Đội agent sản xuất video ngắn dọc 9:16. **Mọi thông tin riêng của xưởng nằm trong `studio.json`** (tên xưởng, lĩnh vực, chủ kênh, kênh mẫu, ngôn ngữ, id thư mục Drive, link bản đồ). Đọc file đó trước mọi việc. Nói chuyện với chủ kênh bằng ngôn ngữ `ngon_ngu_chat` trong `studio.json` (nếu không có thì dùng `language`). `language` là ngôn ngữ của video (voice, phụ đề, caption).
 
 Nếu `studio.json` chưa có hoặc còn trống: làm theo `KHOI-TAO.md` trước.
 

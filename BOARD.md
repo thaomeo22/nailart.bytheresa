@@ -7,3 +7,4 @@
 ## Nhật ký việc
 | Ngày | Agent | Việc |
 |---|---|---|
+| 27/10/2026 | khởi tạo | Khởi tạo xưởng: thư mục Drive, studio.json, bản đồ 3D |
