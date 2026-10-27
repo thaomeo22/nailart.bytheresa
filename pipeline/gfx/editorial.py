@@ -64,6 +64,14 @@ def phrases(words, emph=None, circle=(), skip=(), max_words=3, max_dur=1.1):
     return caps
 
 
+CUES = []
+
+
+def cue(t, name, gain_db=0):
+    """Đặt 1 hiệu ứng âm thanh (pipeline/sfx.py) tại thời điểm t; build() ghi ra sfx.json cạnh overlay.html."""
+    CUES.append({"t": round(t, 3), "name": name, "gain_db": gain_db})
+
+
 def el(t0, t1, x, y, html, rot=0, w=None, cls="", anim="pop"):
     style = f"left:{x}px;top:{y}px;--r:{rot}deg;" + (f"width:{w}px;" if w else "")
     return f'<div class="el {cls}" data-anim="{anim}" data-t0="{t0}" data-t1="{t1}" style="{style}">{html}</div>'
@@ -209,4 +217,9 @@ def build(E, caps, out_html, cap_top=200, theme="default"):
     html = f"""<!doctype html><html><head><meta charset="utf-8"><style>{css}</style></head>
 <body><div class="shade top"></div><div class="shade bot"></div>{''.join(E)}<div id="cap" class="capbox"></div><script>{js}</script></body></html>"""
     open(out_html, "w").write(html)
-    print(len(E), "elements,", len(caps), "phrases ->", out_html)
+    sfx_path = os.path.join(os.path.dirname(out_html), "sfx.json")
+    if CUES:
+        json.dump(sorted(CUES, key=lambda c: c["t"]), open(sfx_path, "w"), indent=1)
+    elif os.path.exists(sfx_path):
+        os.remove(sfx_path)
+    print(len(E), "elements,", len(caps), "phrases,", len(CUES), "sfx ->", out_html)

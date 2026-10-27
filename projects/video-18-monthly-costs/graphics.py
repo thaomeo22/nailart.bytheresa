@@ -45,6 +45,20 @@ for k, (a, b, tt, amt, unit, emo) in enumerate(ITEMS, 1):
                 f'<div class="tt">{tt}</div><div class="amt">{amt}<small>{unit}</small></div></div>', w=940, anim="fade"))
     E.append(sticker(a + .3, b, 860 if k % 2 else 80, 40, emo, rot=8 if k % 2 else -8))
 
+# hiệu ứng âm thanh (pipeline/sfx.py) — như video mẫu: hook thu hút, mỗi mục mới, số tiền, ghi chú cần chú ý
+cue(0.0, "impact"); cue(0.0, "whoosh", -2); cue(0.08, "pop")          # hook: "14" bật ra
+cue(1.0, "chaching")                                                    # 💸
+cue(2.6, "shimmer", 2)                                                  # elip quanh "makes a profit"
+cue(CARD[0] - 0.12, "whoosh"); cue(CARD[0] + 0.1, "shimmer")            # thẻ Salon Setup
+for k, (a, b, *_rest) in enumerate(ITEMS, 1):
+    cue(a - 0.05, "whoosh", -3); cue(a + 0.12, "pop")                   # mở mục mới + chip hiện
+    money = [w["s"] for w in words if a <= w["s"] < b and re.match(r"^\$?[\d.,]+%?[.,]?$", w["w"])]
+    if money:
+        cue(money[0], "coin", -2)                                       # số tiền đầu tiên của mục
+cue(72.34, "pop"); cue(73.33, "swish")                                  # "every salon is different" + elip "estimates"
+cue(75.16, "shimmer", -2)
+cue(75.78, "pop"); cue(79.58, "ding", -3)                               # @handle, "Bye!"
+
 # kết
 E.append(el(72.34, 75.70, 0, 1440, f'<div class="chip" style="text-align:center"><div class="tt">every salon is <i>different</i></div></div>',
             w=1080, anim="fade"))

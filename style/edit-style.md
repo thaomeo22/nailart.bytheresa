@@ -39,4 +39,8 @@
 - Kết: "✦ @nailart.bytheresa" ở dưới.
 
 ## Âm thanh
+- **Hiệu ứng âm thanh (SFX)** như video mẫu — tự tổng hợp trong `pipeline/sfx.py` (không dùng file có bản quyền), đặt bằng `cue(t, tên)` trong graphics.py:
+  - Hook: `impact` + `whoosh` ở 0s, `pop` khi chữ to bật ra, `chaching` cho sticker tiền, `shimmer` khi vẽ elip.
+  - Thẻ tiêu đề: `whoosh` + `shimmer`. Mỗi mục mới: `whoosh` + `pop` (chip hiện). Số tiền: `coin`. Ghi chú cần chú ý: `pop` / `swish` / `shimmer`. Kết: `pop`, `ding` ở "Bye".
+  - Mức trong `LEVEL_DB` (sfx.py); bản mix chuẩn hoá −14 LUFS.
 highpass 80Hz → khử ồn → compressor → loudnorm −14 LUFS. Chưa có nhạc nền (chờ chủ kênh gửi nhạc).
