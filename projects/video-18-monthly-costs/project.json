@@ -1,0 +1,10 @@
+{
+  "title": "Salon Setup — Monthly operating costs for a nail salon (14 costs)",
+  "series": "Salon Setup",
+  "drive_folder": "1QcKERdmWkw89NmuWk1TVPkxjNgPzCWdB",
+  "voice": {"name": "voice.m4a", "drive_id": "18lnB5ky-1NpP6KntAAo4dPJwToT1FB5F", "ghi_chu": "tách từ video thô 14 cost.mp4"},
+  "sources": {"14cost.mp4": "18lnB5ky-1NpP6KntAAo4dPJwToT1FB5F"},
+  "asr_prompt": "Theresa, salon owner in Toronto, monthly operating costs, rent, TMI, HST, commission, payroll, POS, chargebacks",
+  "grade": "null",
+  "theme": "salon_setup"
+}

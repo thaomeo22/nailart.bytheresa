@@ -3,6 +3,14 @@
 > Học từ video mẫu chủ kênh gửi (`video-sample.mp4`, Drive id `1KOKjyDPRQPGqhLztdnfVx1RBA9OFnYq4`, trong `00 Kế hoạch`).
 > Đồ hoạ: `pipeline/gfx/editorial.py` (mẫu dùng: `projects/video-01-thu/graphics.py`). Style scrapbook cũ (`lib.py`) không dùng cho kênh này.
 
+## Branding (chủ kênh, 27/10)
+- **Font chính:** Montserrat (phụ đề, tiêu đề, số) và Open Sans (chữ nhỏ, @handle). Được thêm font phụ kiểu video mẫu làm điểm nhấn
+  (Instrument Serif nghiêng, Pinyon Script) nhưng không thay font chính.
+- **Salon Setup:** màu chữ nhấn **cam `#ff802e`** (số tiền, từ khoá, chữ viết tay, dấu chấm thẻ tiêu đề). Dùng `build(..., theme="salon_setup")`.
+- **Fix Your Foundation:** chưa chốt màu riêng — hỏi chủ kênh trước video FYF đầu tiên.
+- **Giữ nguyên màu gốc của video** (`project.json` → `"grade": "null"`), không chỉnh màu, không làm đẹp.
+- Video thô chủ kênh đã tự dựng sẵn cảnh (vd "14 cost.mp4"): giữ nguyên cảnh và thứ tự, chỉ chuẩn hoá 1080×1920@30 (edl 1 dòng, zoom 0) rồi thêm đồ hoạ + phụ đề.
+
 ## Khung hình
 - 1080×1920, 30fps, dài đúng bằng voice.
 - **Cảnh theo thứ tự thời gian quay** (`creation_time`): chạy hết clip này rồi mới sang clip khác, **không cắt xen kẽ**, không quay lại clip cũ.
@@ -12,7 +20,7 @@
 - Clip ngắn hơn đoạn voice cần phủ: chạy chậm nhẹ (cột speed trong `edl.txt`, không dưới 0.85).
 
 ## Màu
-**Không làm đẹp mặt / chỉnh dáng tự động.** Tông ấm vàng như video mẫu, đặt trong `project.json` → `grade`:
+**Không làm đẹp mặt / chỉnh dáng tự động.** (Chỉ dùng khi chủ kênh muốn chỉnh màu — mặc định giữ màu gốc.) Tông ấm vàng như video mẫu:
 `colortemperature=temperature=4200:mix=0.7,eq=saturation=1.1:contrast=1.05,vignette=angle=PI/4.5`
 
 ## Chữ (theo video mẫu)

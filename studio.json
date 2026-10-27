@@ -66,5 +66,19 @@
       "loai": "mở và vận hành tiệm nail"
     }
   ],
-  "lich": "Xen kẽ Fix Your Foundation và Salon Setup"
+  "lich": "Xen kẽ Fix Your Foundation và Salon Setup",
+  "branding": {
+    "font_chinh": [
+      "Montserrat",
+      "Open Sans"
+    ],
+    "font_phu": [
+      "Instrument Serif (italic)",
+      "Pinyon Script"
+    ],
+    "mau_series": {
+      "Salon Setup": "#ff802e"
+    },
+    "mau_video": "giữ nguyên màu gốc"
+  }
 }

@@ -23,7 +23,14 @@ def load_words(transcript_path, lines_path):
         ws = seg["words"]
         assert len(cw) == len(ws), f"dòng {si + 1}: {len(cw)} từ, Whisper có {len(ws)} từ"
         out += [{"s": w["s"], "e": w["e"], "w": c, "seg": si} for w, c in zip(ws, cw)]
-    return out
+    # Whisper tách số thành nhiều token ("$5" ",000", "40" "%") — gộp lại để phụ đề hiện "$5,000", "40%"
+    merged = []
+    for w in out:
+        if merged and w["w"][:1] in ",.%" and w["seg"] == merged[-1]["seg"] and merged[-1]["w"][-1:].isdigit():
+            merged[-1] = dict(merged[-1], w=merged[-1]["w"] + w["w"], e=w["e"])
+        else:
+            merged.append(w)
+    return merged
 
 
 def print_words(words):
@@ -96,47 +103,71 @@ def _ff(name, pat, weight, style="normal"):
             f"font-weight:{weight};font-style:{style};}}")
 
 
-def build(E, caps, out_html, cap_top=200):
-    fonts = "".join(_ff(n, f"{fam}-{sub}-{w}-{st}.woff2", w, st)
-                    for n, fam, w, st in [("Serif", "instrument-serif", 400, "normal"), ("Serif", "instrument-serif", 400, "italic"),
-                                          ("Bold", "inter-tight", 800, "normal"), ("Script", "pinyon-script", 400, "normal")]
-                    for sub in ("latin", "latin-ext"))
+# Theme: font + màu. "default" = style video mẫu; "salon_setup" = branding Theresa (Montserrat / Open Sans, cam #ff802e)
+# + font phụ kiểu video mẫu (Instrument Serif nghiêng, Pinyon Script) làm điểm nhấn.
+THEMES = {
+    "default": dict(fonts=[("Serif", "instrument-serif", 400, "normal"), ("Serif", "instrument-serif", 400, "italic"),
+                           ("Bold", "inter-tight", 800, "normal"), ("Script", "pinyon-script", 400, "normal")],
+                    cap="Serif", cap_w=400, cap_size=84, cap_ls="-.5px", pop="Bold", pop_w=800,
+                    script="Script", ital="Serif", small="Serif", accent=LIME),
+    "salon_setup": dict(fonts=[("Montserrat", "montserrat", 600, "normal"), ("Montserrat", "montserrat", 800, "normal"),
+                               ("Montserrat", "montserrat", 900, "normal"), ("OpenSans", "open-sans", 600, "normal"),
+                               ("Serif", "instrument-serif", 400, "italic"), ("Script", "pinyon-script", 400, "normal")],
+                        cap="Montserrat", cap_w=600, cap_size=64, cap_ls="-.5px", pop="Montserrat", pop_w=900,
+                        script="Script", ital="Serif", small="OpenSans", accent="#ff802e"),
+}
+
+
+def build(E, caps, out_html, cap_top=200, theme="default"):
+    T = THEMES[theme] if isinstance(theme, str) else theme
+    fonts = "".join(_ff(n, f"{fam}-{sub}-{w}-{st}.woff2", w, st) for n, fam, w, st in T["fonts"] for sub in ("latin", "latin-ext"))
     css = """
     html,body{margin:0;width:1080px;height:1920px;background:transparent;overflow:hidden}
     *{box-sizing:border-box}
-    .el{position:absolute;opacity:0;transform-origin:50%% 50%%;will-change:transform}
+    .el{position:absolute;opacity:0;transform-origin:50% 50%;will-change:transform}
     .emo{font-family:'Noto Color Emoji';line-height:1;filter:drop-shadow(0 6px 10px rgba(0,0,0,.3))}
-    #cap{position:absolute;left:60px;right:60px;top:%dpx}
-    .capbox{text-align:center;font-family:Serif;font-size:84px;line-height:.98;color:#fff;
-      text-shadow:0 2px 5px rgba(0,0,0,.5),0 0 28px rgba(0,0,0,.45);letter-spacing:-.5px}
+    #cap{position:absolute;left:60px;right:60px;top:@TOPpx}
+    .capbox{text-align:center;font-family:@CAP;font-weight:@CAPW;font-size:@CAPSIZEpx;line-height:1.02;color:#fff;
+      text-shadow:0 2px 5px rgba(0,0,0,.5),0 0 28px rgba(0,0,0,.45);letter-spacing:@CAPLS}
     .shade{position:absolute;left:0;width:1080px;pointer-events:none}
-    .shade.top{top:0;height:760px;background:linear-gradient(rgba(0,0,0,.34),rgba(0,0,0,.16) 55%%,rgba(0,0,0,0))}
-    .shade.bot{bottom:0;height:640px;background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,.16) 45%%,rgba(0,0,0,.36))}
+    .shade.top{top:0;height:760px;background:linear-gradient(rgba(0,0,0,.34),rgba(0,0,0,.16) 55%,rgba(0,0,0,0))}
+    .shade.bot{bottom:0;height:640px;background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,.16) 45%,rgba(0,0,0,.36))}
     .capbox .in{position:relative;display:inline-block}
     .capbox .w{display:inline-block;margin:0 .1em}
     #cap .w{opacity:0}
-    .capbox .pop{display:block;font-family:Bold;font-weight:800;font-size:1.22em;letter-spacing:-.045em;color:%s;line-height:.92}
-    .capbox .script{display:block;font-family:Script;font-size:1.55em;color:%s;line-height:.9;transform:rotate(-4deg)}
-    .capbox .ital{font-style:italic}
-    .capbox .big{display:block;font-size:2.6em;line-height:.85}
-    .capbox .ell{position:absolute;left:-7%%;top:-12%%;width:114%%;height:124%%}
-    .capbox .spk{position:absolute;left:-4%%;top:-26px}
+    .capbox .pop{display:block;font-family:@POP;font-weight:@POPW;font-size:1.25em;letter-spacing:-.04em;color:@ACC;line-height:.95}
+    .capbox .script{display:block;font-family:@SCRIPT;font-weight:400;font-size:1.75em;color:@ACC;line-height:.9;transform:rotate(-4deg);letter-spacing:0}
+    .capbox .ital{font-family:@ITAL;font-weight:400;font-style:italic;font-size:1.2em;letter-spacing:0}
+    .capbox .big{display:block;font-family:@POP;font-weight:@POPW;font-size:2.6em;line-height:.85;color:@ACC}
+    .capbox .acc{color:@ACC;font-family:@POP;font-weight:@POPW;letter-spacing:-.02em}
+    .capbox .ell{position:absolute;left:-7%;top:-12%;width:114%;height:124%}
+    .capbox .spk{position:absolute;left:-4%;top:-26px}
     .ell path{stroke-dasharray:1;stroke-dashoffset:var(--d,1)}
-    .note{position:relative;width:520px;margin:0 auto 26px;text-align:center;font-family:Serif;font-size:34px;color:#fff;padding:14px 0;
+    .note{position:relative;width:520px;margin:0 auto 26px;text-align:center;font-family:@ITAL;font-style:italic;font-size:34px;color:#fff;padding:14px 0;
       text-shadow:0 1px 3px rgba(0,0,0,.4)}
     .note .ell{position:absolute;left:0;top:0}
     .card{text-align:center;color:#fff;text-shadow:0 3px 14px rgba(0,0,0,.35)}
-    .c-script{font-family:Script;font-size:150px;line-height:.8;margin-left:-160px}
-    .c-bold{position:relative;display:inline-block;font-family:Bold;font-weight:800;font-size:170px;letter-spacing:-.06em;line-height:.85}
-    .c-dot{color:%s}
+    .c-script{font-family:@SCRIPT;font-size:150px;line-height:.8;margin-left:-160px}
+    .c-bold{position:relative;display:inline-block;font-family:@POP;font-weight:@POPW;font-size:150px;letter-spacing:-.05em;line-height:.9}
+    .c-dot{color:@ACC}
     .c-bold .spk{position:absolute;right:-48px;top:-6px}
-    .c-small{font-family:Serif;font-size:38px;line-height:1.1;margin:30px 0 0 360px;text-align:left}
-    .chip{font-family:Serif;color:#fff;text-shadow:0 2px 4px rgba(0,0,0,.4),0 0 20px rgba(0,0,0,.3)}
-    .chip .no{font-family:Script;font-size:76px;color:%s;line-height:.8}
-    .chip .tt{font-size:96px;line-height:.95}
-    .chip .tt i{font-style:italic}
-    .handle{font-family:Serif;font-style:italic;font-size:58px;color:#fff;text-shadow:0 2px 6px rgba(0,0,0,.45)}
-    """ % (cap_top, LIME, LIME, LIME, LIME)
+    .c-small{font-family:@SMALL;font-weight:600;font-size:34px;line-height:1.2;margin:30px 0 0 340px;text-align:left}
+    .chip{font-family:@CAP;font-weight:@POPW;color:#fff;text-shadow:0 2px 4px rgba(0,0,0,.4),0 0 20px rgba(0,0,0,.3)}
+    .chip .no{font-family:@SCRIPT;font-weight:400;font-size:76px;color:@ACC;line-height:.8}
+    .chip .tt{font-size:76px;line-height:1;letter-spacing:-.03em}
+    .chip .amt{font-family:@POP;font-weight:@POPW;font-size:92px;color:@ACC;line-height:1;letter-spacing:-.04em;margin-top:6px}
+    .chip .amt small{font-family:@SMALL;font-weight:600;font-size:36px;color:#fff;letter-spacing:0;margin-left:10px}
+    .chip .of{font-family:@SMALL;font-weight:600;font-size:30px;color:#fff;margin-left:12px;vertical-align:middle}
+    .chip .tt i{font-family:@ITAL;font-weight:400;font-style:italic;font-size:1.15em;letter-spacing:0}
+    .capbox .acc,.capbox .pop,.capbox .script,.capbox .big,.chip .no,.chip .amt{text-shadow:0 2px 3px rgba(0,0,0,.55),0 0 22px rgba(0,0,0,.5)}
+    .handle{font-family:@SMALL;font-weight:600;font-size:46px;color:#fff;text-shadow:0 2px 6px rgba(0,0,0,.45)}
+    .money{font-family:@POP;font-weight:@POPW;color:@ACC;letter-spacing:-.03em}
+    .small{font-family:@SMALL;font-weight:600}
+    """
+    for k, v in [("@TOP", cap_top), ("@CAPSIZE", T["cap_size"]), ("@CAPLS", T["cap_ls"]), ("@CAPW", T["cap_w"]), ("@CAP", T["cap"]),
+                 ("@POPW", T["pop_w"]), ("@POP", T["pop"]), ("@SCRIPT", T["script"]), ("@ITAL", T["ital"]),
+                 ("@SMALL", T["small"]), ("@ACC", T["accent"])]:
+        css = css.replace(k, str(v))
     css = fonts + css
 
     js = """

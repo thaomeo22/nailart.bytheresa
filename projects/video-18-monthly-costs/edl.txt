@@ -1,0 +1,2 @@
+# Video thô đã dựng sẵn cảnh — giữ nguyên, chỉ chuẩn hoá 1080x1920@30, không zoom, không chỉnh màu
+01 14cost.mp4 0 80.085 0
