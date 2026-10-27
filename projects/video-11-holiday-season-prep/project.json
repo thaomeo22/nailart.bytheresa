@@ -1,0 +1,9 @@
+{
+  "title": "Salon Setup — Get your salon ready for the holiday rush",
+  "series": "Salon Setup",
+  "drive_folder": "1zkAY3oHjAuuCSxTE6_R1QbejoS3dYefY",
+  "voice": {},
+  "sources": {},
+  "asr_prompt": "Theresa, salon owner in Toronto, Get your salon ready for the holiday rush",
+  "grade": "colortemperature=temperature=4200:mix=0.7,eq=saturation=1.1:contrast=1.05,vignette=angle=PI/4.5"
+}

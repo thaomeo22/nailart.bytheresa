@@ -1,0 +1,10 @@
+{
+  "title": "FYF ep 42 — Change the shape with Dual Form",
+  "series": "Fix Your Foundation",
+  "drive_folder": "13ThQM9XTCFzvA6JMjs0h555wmia8NYHQ",
+  "voice": {},
+  "sources": {},
+  "asr_prompt": "Theresa, Fix Your Foundation, Change the shape with Dual Form",
+  "grade": "colortemperature=temperature=4200:mix=0.7,eq=saturation=1.1:contrast=1.05,vignette=angle=PI/4.5",
+  "episode": 42
+}

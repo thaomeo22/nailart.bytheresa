@@ -1,0 +1,9 @@
+{
+  "title": "Salon Setup — What it really costs to open a nail salon",
+  "series": "Salon Setup",
+  "drive_folder": "12Sj_sdLhys6ksjLnHm1H5-IPDqomysC7",
+  "voice": {},
+  "sources": {},
+  "asr_prompt": "Theresa, salon owner in Toronto, What it really costs to open a nail salon",
+  "grade": "colortemperature=temperature=4200:mix=0.7,eq=saturation=1.1:contrast=1.05,vignette=angle=PI/4.5"
+}

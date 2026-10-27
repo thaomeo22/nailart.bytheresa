@@ -1,0 +1,9 @@
+{
+  "title": "Salon Setup — Pipeless or jetted pedicure chairs?",
+  "series": "Salon Setup",
+  "drive_folder": "11BABsomx2HD97wPi_9pRyLUzzPQ-v35V",
+  "voice": {},
+  "sources": {},
+  "asr_prompt": "Theresa, salon owner in Toronto, Pipeless or jetted pedicure chairs?",
+  "grade": "colortemperature=temperature=4200:mix=0.7,eq=saturation=1.1:contrast=1.05,vignette=angle=PI/4.5"
+}

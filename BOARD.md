@@ -12,6 +12,14 @@
 | 07 | SS — Commission hay booth rent | Không có trong Doc hoàn chỉnh — chờ chủ kênh quyết định |  | Tiệm trả thợ commission 45–55% |
 | 08 | FYF ep 38 — Vệ sinh & khử trùng đầu mài | Script chốt → chờ thu voice + up | Doc "Script đợt 27/10 — bản hoàn chỉnh" | |
 | 09 | SS — Quản lý hàng tồn | Không có trong Doc hoàn chỉnh — chờ chủ kênh quyết định |  | |
+| 10 | FYF ep 39 — Gel nâu mùa thu bị nhăn | Script đợt #2 → chờ sửa, thu voice + up | Doc "Script đợt 27/10 #2" | Đúng mùa |
+| 11 | SS — Chuẩn bị mùa lễ cuối năm | Script đợt #2 → chờ sửa, thu voice + up | Doc "Script đợt 27/10 #2" | Đúng mùa, đăng đầu tháng 11 |
+| 12 | FYF ep 40 — Tốc độ đầu mài | Script đợt #2 → chờ sửa, thu voice + up | Doc "Script đợt 27/10 #2" | [xác nhận] tốc độ thật |
+| 13 | SS — Ghế pedicure pipeless hay có ống | Script đợt #2 → chờ sửa, thu voice + up | Doc "Script đợt 27/10 #2" | |
+| 14 | FYF ep 41 — Mài vùng khoé móng (sinuses) | Script đợt #2 → chờ sửa, thu voice + up | Doc "Script đợt 27/10 #2" | |
+| 15 | SS — Chọn nhà cung cấp | Script đợt #2 → chờ sửa, thu voice + up | Doc "Script đợt 27/10 #2" | |
+| 16 | FYF ep 42 — Dual Form đổi dáng móng | Script đợt #2 → chờ sửa, thu voice + up | Doc "Script đợt 27/10 #2" | |
+| 17 | SS — Vốn ban đầu mở tiệm | Script đợt #2 → chờ số thật + thu voice | Doc "Script đợt 27/10 #2" | [xác nhận $] |
 
 ## Nhật ký việc
 | Ngày | Agent | Việc |
@@ -22,3 +30,5 @@
 | 27/10/2026 | nghiên cứu | Chủ kênh bỏ 03 định giá + 05 đặt cọc; thay bằng SS BodySafe (03), bảo hiểm (05), hàng tồn (09) |
 | 27/10/2026 | viết script | Script video 02–09 viết từ nghiên cứu (chưa có transcript), nguồn: O.Reg 136/18, Toronto Public Health, BAD 2018, Nailpro, Lerners; 1 Doc script + 8 thư mục Video NN |
 | 27/10/2026 | viết script | Doc "Script đợt 27/10 — bản hoàn chỉnh (video 02–06, 08)": script chủ kênh sửa + hook, caption, cảnh quay, nguồn khớp |
+| 27/10/2026 | lưu | Lưu bản chủ kênh chốt video 02–06, 08 (video 08 đổi sang "tools") |
+| 27/10/2026 | nghiên cứu + viết script | Đợt #2 (video 10–17): 8 chủ đề chủ kênh chọn, script từ nghiên cứu, Doc "Script đợt 27/10 #2" + 8 thư mục |

@@ -1,0 +1,9 @@
+{
+  "title": "Salon Setup — How to choose a nail supplier",
+  "series": "Salon Setup",
+  "drive_folder": "1yhe8ZdAgDxzhGLTTTBwfuq1PTODiyL0b",
+  "voice": {},
+  "sources": {},
+  "asr_prompt": "Theresa, salon owner in Toronto, How to choose a nail supplier",
+  "grade": "colortemperature=temperature=4200:mix=0.7,eq=saturation=1.1:contrast=1.05,vignette=angle=PI/4.5"
+}
