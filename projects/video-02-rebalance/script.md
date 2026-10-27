@@ -6,14 +6,14 @@ Thư mục Drive: https://drive.google.com/drive/folders/1D3m6ClIRhhDIySrC9Dejfz
 ## Hook
 3 steps to rebalance a grown-out set
 
-## Script ghi âm (bản chủ kênh đã sửa 27/10)
+## Script ghi âm (bản chủ kênh đã sửa 27/10, đã chỉnh chính tả)
 Three steps to rebalance a grown-out set.
 
 Hey, I'm Theresa. Welcome back to Fix Your Foundation, episode 35: restore the structure.
 
-First, file it back. Thin out the old product and blend the regrowth line. Second, prep the new growth. Cut the cuticle before or after is your choice. But the cuticle must be pushed back, and the nail surface cleaned, before any gel touches it.
+First, file it back. Thin out the old product and blend the regrowth line. Second, prep the new growth. Cutting the cuticle before or after is your choice. But the cuticle must be pushed back, and the nail surface cleaned, before any gel touches it.
 
-Third, move the apex back. As the nail grows, the apex slides toward the tip — and that's where it breaks. So we have to rebuild it over the stress area. With Dual Form, this is so much faster than sculpting gel by hand. Put gel on the form, apply it on the nails, cure, and pop it off. Now we have right structure again.
+Third, move the apex back. As the nail grows, the apex slides toward the tip — and that's where it breaks. So we have to rebuild it over the stress area. With Dual Form, this is so much faster than sculpting gel by hand. Put gel on the form, apply it on the nails, cure, and pop it off. Now we have the right structure again.
 
 Follow Fix Your Foundation to master every technique fundamental. I'm Theresa — see you.
 
@@ -24,10 +24,8 @@ Do you rebalance with Dual Form or by hand? 👇
 
 #fixyourfoundation #nailtech #buildergel #dualform #nailfill #naileducation
 
-Độ dài: 145 từ ≈ 52 giây
+Độ dài: 146 từ ≈ 52 giây
 
-## Ghi chú
-Sửa nhỏ khi thu (tuỳ bạn): "Cutting the cuticle before or after is your choice", "Now we have the right structure again".
 
 ## Gợi ý cảnh quay
 Móng mọc dài ~3 tuần (cận vùng regrowth) → file mỏng lớp cũ, blend regrowth line → đẩy cuticle, cắt da, lau mặt móng → đặt gel lên dual form → ấn form lên móng → hơ → tháo form → nhìn ngang thấy apex.

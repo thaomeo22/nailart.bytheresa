@@ -6,16 +6,16 @@ Thư mục Drive: https://drive.google.com/drive/folders/1PW1NvPyz46SDYZ8egc--LI
 ## Hook
 Heat spikes with Dual Form? Here's how to stop them.
 
-## Script ghi âm (bản chủ kênh đã sửa 27/10)
+## Script ghi âm (bản chủ kênh đã sửa 27/10, đã chỉnh chính tả)
 That burning feeling isn't normal — and you can stop it.
 
 Hey, I'm Theresa. Fix Your Foundation, episode 36: heat spikes.
 
-When gel cures, the molecules link together, and every link releases a little heat. More gel at once means more heat at once. But dual form normally requires more gel than brush technique, so how we avoid heat spikes?
+When gel cures, the molecules link together, and every link releases a little heat. More gel at once means more heat at once. But dual form normally requires more gel than brush technique, so how do we avoid heat spikes?
 
-first: flash cure only the cuticle. Move the lamp away when client start to feel the heat and bring it back again.
+First: flash cure only the cuticle. Move the lamp away when the client starts to feel the heat and bring it back again.
 
-Second: adjust the gel underneath and flash cure. Again, cure for few seconds, move the lamp away and bring it back.
+Second: adjust the gel underneath and flash cure. Again, cure for a few seconds, move the lamp away and bring it back.
 
 Third: use the lamp your gel was made for. The wrong lamp can cure too fast, or not enough.
 
@@ -30,10 +30,8 @@ Have your clients ever pulled their hand out of the lamp? 👇
 
 #fixyourfoundation #nailtech #dualform #heatspike #buildergel #naileducation
 
-Độ dài: 157 từ ≈ 56 giây
+Độ dài: 160 từ ≈ 57 giây
 
-## Ghi chú
-Sửa nhỏ khi thu (tuỳ bạn): "so how do we avoid heat spikes?", "when the client starts to feel the heat", "cure for a few seconds".
 
 ## Gợi ý cảnh quay
 Đặt gel lên dual form, ấn lên móng, flash cure vùng cuticle (đưa đèn ra – vào), chỉnh gel mặt dưới rồi flash cure tiếp, cận mặt khách / tay khách trong đèn, đèn + chai gel cùng hãng.

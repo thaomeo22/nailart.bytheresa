@@ -6,7 +6,7 @@ Thư mục Drive: https://drive.google.com/drive/folders/18Jqotvi498YNX5Fs_2gC-h
 ## Hook
 Gel allergies don't happen overnight
 
-## Script ghi âm (bản chủ kênh đã sửa 27/10)
+## Script ghi âm (bản chủ kênh đã sửa 27/10, đã chỉnh chính tả)
 Gel allergies don't happen overnight. They happen one tiny skin touch at a time.
 
 Hey, I'm Theresa. Fix Your Foundation, episode 37: keeping gel off the skin.
@@ -15,11 +15,11 @@ When the British Association of Dermatologists looked at nearly 5,000 patients t
 
 So, four habits. One: choose a high quality gel. Try not to let the gel touch skin.
 
-Two: if it floods, clean it up as soon as posible.
+Two: if it floods, clean it up as soon as possible.
 
 Three: cure fully, with the right lamp. Under-cured gel raises the risk.
 
-Four: nail tech! protect yourself too. Wear gloves, No uncured gel on bare fingers, or wipe your brush on a piece of paper towel, not your hand.
+Four: nail techs, protect yourself too. Wear gloves, no uncured gel on bare fingers, or wipe your brush on a piece of paper towel, not your hand.
 
 Follow Fix Your Foundation to master every technique fundamental. I'm Theresa — see you.
 
@@ -33,7 +33,7 @@ Have you ever seen a client react to gel? 👇
 Độ dài: 146 từ ≈ 52 giây
 
 ## Ghi chú
-Sửa nhỏ khi thu: "as soon as possible". Gợi ý (tuỳ bạn): ở ý Two nói rõ "before you cure" — gel tràn mà hơ luôn sẽ đông cứng trên da.
+Gợi ý (tuỳ bạn): ở ý Two nói rõ "before you cure" — gel tràn mà hơ luôn sẽ đông cứng trên da.
 
 ## Gợi ý cảnh quay
 Chai gel, đặt gel chừa khe nhỏ ở cuticle (macro), lau gel tràn bằng cây gỗ, tay khách trong đèn, thợ đeo găng, lau cọ trên khăn giấy.

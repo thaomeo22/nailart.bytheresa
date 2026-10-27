@@ -6,7 +6,7 @@ Thư mục Drive: https://drive.google.com/drive/folders/14zVZBKUX6rQydqNJtY2Gmj
 ## Hook
 6 things the health inspector checks first
 
-## Script ghi âm (bản chủ kênh đã sửa 27/10)
+## Script ghi âm (bản chủ kênh đã sửa 27/10, đã chỉnh chính tả)
 The health inspector can walk in on any day. Here's what they check first.
 
 Hi, I'm Theresa, a salon owner in Toronto. Here, nail salons are inspected by BodySafe, under Ontario Regulation 136/18. 6 things to get right:
@@ -15,11 +15,11 @@ One: single-use items. Paper files, buffers, toe separators — one client, then
 
 Two: reusable tools. Clean first, then disinfect, between every client.
 
-Three: You need a separate sink for cleaning tools — not client's hand-wash sink.
+Three: you need a separate sink for cleaning tools — not the hand-wash sink.
 
-Four: your disinfectant. It needs a DIN or NPN on the label, and you use it exactly the way the label says. Or another way is mixing 20 mL bleach + 1 Litter water, deep the tools for 10mins.
+Four: your disinfectant. It needs a DIN or NPN on the label, and you use it exactly the way the label says. Or mix 20 mL of bleach in 1 litre of water — fresh every day — and soak the tools for 10 minutes.
 
-Five: A UV box doesn't count — it's only for storing tools that are already disinfected.
+Five: a UV box doesn't count — it's only for storing tools that are already disinfected.
 
 Six: records. Every client — name, phone number, date, service, and who did it. Keep them for three years, with at least one year at the salon.
 
@@ -34,10 +34,10 @@ Salon owners: what was the first thing your inspector checked? 👇
 
 #salonsetup #nailsalon #torontonails #salonowner #nailbusiness #bodysafe
 
-Độ dài: 177 từ ≈ 63 giây
+Độ dài: 183 từ ≈ 65 giây
 
 ## Ghi chú
-Đã kiểm tra: 20 mL bleach + 1 lít nước ≈ 1:50 = 1.000 ppm, ngâm 10 phút — đúng mức khử trùng trung bình theo Public Health Ontario. Đề xuất sửa câu Four: "Or mix 20 mL of bleach in 1 litre of water — fresh every day — and soak the tools for 10 minutes." ("Litter" → litre, "deep" → soak; PHO yêu cầu pha mới mỗi ngày). Câu Three: "not the hand-wash sink" (bồn rửa tay là cho thợ, không phải của khách). Độ dài ~63s, hơi quá 60s — có thể bỏ "Treat every day like inspection day." nếu muốn gọn.
+Đã kiểm tra: 20 mL bleach + 1 lít nước ≈ 1:50 = 1.000 ppm, ngâm 10 phút — mức khử trùng trung bình theo Public Health Ontario; phải pha mới mỗi ngày. Độ dài ~65s, hơi quá 60s — có thể bỏ "Treat every day like inspection day." nếu muốn gọn.
 
 ## Gợi ý cảnh quay
 Bỏ file/buffer/tách ngón vào thùng rác sau khách, rửa dụng cụ ở bồn riêng (khác bồn rửa tay), đong 20 mL bleach vào 1 lít nước, ngâm dụng cụ + đồng hồ 10 phút, chai dung dịch có nhãn DIN, hộp UV, sổ ghi khách, giấy BodySafe ở cửa (nếu có).

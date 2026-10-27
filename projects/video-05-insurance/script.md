@@ -6,7 +6,7 @@ Thư mục Drive: https://drive.google.com/drive/folders/1DOP5Pfn-_N4w7EpCP2ADIy
 ## Hook
 Is your salon protected? 4 types of insurance to ask about
 
-## Script ghi âm (bản chủ kênh đã sửa 27/10)
+## Script ghi âm (bản chủ kênh đã sửa 27/10, đã chỉnh chính tả)
 Is your salon protected?
 
 Hi, I'm Theresa, a salon owner in Toronto. Here are four types of coverage I'd want in my salon insurance.

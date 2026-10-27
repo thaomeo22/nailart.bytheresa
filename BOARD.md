@@ -4,14 +4,14 @@
 | Video | Chủ đề | Trạng thái | Script | Ghi chú |
 |---|---|---|---|---|
 | 01 (thử) | Salon Setup — 6 things before putting down the deposit | Final thử, style đã chốt | Notion (voiced) | Dựng theo style video mẫu, gửi trong chat |
-| 02 | FYF ep 35 — Rebalance / fill builder gel | Chủ kênh sửa script → thu voice → up | Doc "Script đợt 27/10" | Doc "Đợt 27/10 — Ý tưởng & transcript" |
-| 03 | SS — Chuẩn bị kiểm tra vệ sinh BodySafe | Chủ kênh sửa script → thu voice → up | Doc "Script đợt 27/10" | |
-| 04 | FYF ep 36 — Heat spike | Chủ kênh sửa script → thu voice → up | Doc "Script đợt 27/10" | |
-| 05 | SS — Bảo hiểm cho tiệm nail | Chủ kênh sửa script → thu voice → up | Doc "Script đợt 27/10" | |
-| 06 | FYF ep 37 — Tránh gel dính da (HEMA) | Chủ kênh sửa script → thu voice → up | Doc "Script đợt 27/10" | |
-| 07 | SS — Commission hay booth rent | Chủ kênh sửa script → thu voice → up | Doc "Script đợt 27/10" | Tiệm trả thợ commission 45–55% |
-| 08 | FYF ep 38 — Vệ sinh & khử trùng đầu mài | Chủ kênh sửa script → thu voice → up | Doc "Script đợt 27/10" | |
-| 09 | SS — Quản lý hàng tồn | Chủ kênh sửa script → thu voice → up | Doc "Script đợt 27/10" | |
+| 02 | FYF ep 35 — Rebalance / fill builder gel | Script chốt → chờ thu voice + up | Doc "Script đợt 27/10 — bản hoàn chỉnh" | Doc "Đợt 27/10 — Ý tưởng & transcript" |
+| 03 | SS — Chuẩn bị kiểm tra vệ sinh BodySafe | Script chốt → chờ thu voice + up | Doc "Script đợt 27/10 — bản hoàn chỉnh" | |
+| 04 | FYF ep 36 — Heat spike | Script chốt → chờ thu voice + up | Doc "Script đợt 27/10 — bản hoàn chỉnh" | |
+| 05 | SS — Bảo hiểm cho tiệm nail | Script chốt → chờ thu voice + up | Doc "Script đợt 27/10 — bản hoàn chỉnh" | |
+| 06 | FYF ep 37 — Tránh gel dính da (HEMA) | Script chốt → chờ thu voice + up | Doc "Script đợt 27/10 — bản hoàn chỉnh" | |
+| 07 | SS — Commission hay booth rent | Không có trong Doc hoàn chỉnh — chờ chủ kênh quyết định |  | Tiệm trả thợ commission 45–55% |
+| 08 | FYF ep 38 — Vệ sinh & khử trùng đầu mài | Script chốt → chờ thu voice + up | Doc "Script đợt 27/10 — bản hoàn chỉnh" | |
+| 09 | SS — Quản lý hàng tồn | Không có trong Doc hoàn chỉnh — chờ chủ kênh quyết định |  | |
 
 ## Nhật ký việc
 | Ngày | Agent | Việc |
@@ -21,3 +21,4 @@
 | 27/10/2026 | nghiên cứu | Đợt 27/10: 7 chủ đề xen kẽ FYF / Salon Setup (video 02–08), Doc ý tưởng & transcript trong 00 Kế hoạch |
 | 27/10/2026 | nghiên cứu | Chủ kênh bỏ 03 định giá + 05 đặt cọc; thay bằng SS BodySafe (03), bảo hiểm (05), hàng tồn (09) |
 | 27/10/2026 | viết script | Script video 02–09 viết từ nghiên cứu (chưa có transcript), nguồn: O.Reg 136/18, Toronto Public Health, BAD 2018, Nailpro, Lerners; 1 Doc script + 8 thư mục Video NN |
+| 27/10/2026 | viết script | Doc "Script đợt 27/10 — bản hoàn chỉnh (video 02–06, 08)": script chủ kênh sửa + hook, caption, cảnh quay, nguồn khớp |
