@@ -6,7 +6,7 @@ Thư mục Drive: https://drive.google.com/drive/folders/18Jqotvi498YNX5Fs_2gC-h
 ## Hook
 Gel allergies don't happen overnight
 
-## Script ghi âm (bản chủ kênh đã sửa 27/10, đã chỉnh chính tả)
+## Script ghi âm (bản chủ kênh chốt 27/10)
 Gel allergies don't happen overnight. They happen one tiny skin touch at a time.
 
 Hey, I'm Theresa. Fix Your Foundation, episode 37: keeping gel off the skin.

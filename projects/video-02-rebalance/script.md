@@ -6,7 +6,7 @@ Thư mục Drive: https://drive.google.com/drive/folders/1D3m6ClIRhhDIySrC9Dejfz
 ## Hook
 3 steps to rebalance a grown-out set
 
-## Script ghi âm (bản chủ kênh đã sửa 27/10, đã chỉnh chính tả)
+## Script ghi âm (bản chủ kênh chốt 27/10)
 Three steps to rebalance a grown-out set.
 
 Hey, I'm Theresa. Welcome back to Fix Your Foundation, episode 35: restore the structure.

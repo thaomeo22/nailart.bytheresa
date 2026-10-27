@@ -6,7 +6,7 @@ Thư mục Drive: https://drive.google.com/drive/folders/1PW1NvPyz46SDYZ8egc--LI
 ## Hook
 Heat spikes with Dual Form? Here's how to stop them.
 
-## Script ghi âm (bản chủ kênh đã sửa 27/10, đã chỉnh chính tả)
+## Script ghi âm (bản chủ kênh chốt 27/10)
 That burning feeling isn't normal — and you can stop it.
 
 Hey, I'm Theresa. Fix Your Foundation, episode 36: heat spikes.

@@ -6,7 +6,7 @@ Thư mục Drive: https://drive.google.com/drive/folders/14zVZBKUX6rQydqNJtY2Gmj
 ## Hook
 6 things the health inspector checks first
 
-## Script ghi âm (bản chủ kênh đã sửa 27/10, đã chỉnh chính tả)
+## Script ghi âm (bản chủ kênh chốt 27/10)
 The health inspector can walk in on any day. Here's what they check first.
 
 Hi, I'm Theresa, a salon owner in Toronto. Here, nail salons are inspected by BodySafe, under Ontario Regulation 136/18. 6 things to get right:

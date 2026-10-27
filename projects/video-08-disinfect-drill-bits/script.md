@@ -1,4 +1,4 @@
-# Video 08 — FYF ep 38 — Clean & disinfect your drill bits
+# Video 08 — FYF ep 38 — Clean & disinfect your tools
 
 Series: Fix Your Foundation · episode 38
 Thư mục Drive: https://drive.google.com/drive/folders/1xojGWAsRk-M3zw0VDV7voMCr6-lexCJt
@@ -6,10 +6,10 @@ Thư mục Drive: https://drive.google.com/drive/folders/1xojGWAsRk-M3zw0VDV7voM
 ## Hook
 Brushing your bits isn't cleaning them
 
-## Script ghi âm (bản chủ kênh đã sửa 27/10, đã chỉnh chính tả)
-Brushing your bits isn't cleaning them. And that UV box? It doesn't disinfect them either.
+## Script ghi âm (bản chủ kênh chốt 27/10)
+Are you disinfecting your nail tools properly?
 
-Hey, I'm Theresa. Fix Your Foundation, episode 38: how to actually clean and disinfect your drill bits.
+Hey, I'm Theresa. Fix Your Foundation, episode 38: how to actually clean and disinfect your tools.
 
 First, clean. Brush out all the dust and gel, then wash with soap and water. Disinfectant can't work through debris.
 
@@ -30,10 +30,10 @@ How many sets of bits do you keep? 👇
 
 #fixyourfoundation #nailtech #efile #nailbits #salonhygiene #naileducation
 
-Độ dài: 154 từ ≈ 55 giây
+Độ dài: 145 từ ≈ 52 giây
 
 ## Ghi chú
-Public Health Ontario ghi bleach ăn mòn kim loại nếu ngâm lâu → với đầu mài không ngâm quá 10 phút, rửa lại bằng nước sạch và lau khô; cồn 70% nhẹ hơn cho đầu mài.
+Hook trong Doc vẫn là "Brushing your bits isn't cleaning them" và script vẫn nói "Soak the whole bit… bits" — đề xuất đổi hook thành "Are you disinfecting your nail tools properly?" và "bit" → "tool" cho khớp tiêu đề mới. Public Health Ontario ghi bleach ăn mòn kim loại nếu ngâm lâu → với đầu mài không ngâm quá 10 phút, rửa lại bằng nước sạch và lau khô; cồn 70% nhẹ hơn cho đầu mài.
 
 ## Gợi ý cảnh quay
 Bàn chải làm sạch bụi trên đầu mài (macro), rửa xà phòng ở bồn rửa dụng cụ, lau khô bằng khăn dùng 1 lần, thả đầu mài ngập trong hộp cồn 70% hoặc dung dịch bleach (đồng hồ 10 phút), xếp vào hộp kín, hộp UV chỉ để cất, 2–3 bộ đầu mài.
