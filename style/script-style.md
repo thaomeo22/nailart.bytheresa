@@ -24,3 +24,16 @@
 2. **Script ghi âm** — lời để thu voice.
 3. **Caption đăng** — 2–4 câu tóm giá trị + 1 câu hỏi kéo bình luận + 4–6 hashtag.
 Sau đó: độ dài, nguồn rút gọn (link video gốc, đã bỏ gì), gợi ý cảnh quay, **Nguồn** (link nghiên cứu).
+
+## Hai series (xen kẽ trên kênh)
+Chủ kênh: **Theresa**, nail educator, chủ 2 tiệm nail ở Toronto.
+
+### Fix Your Foundation — kỹ thuật nền tảng cho thợ nail
+- Đánh số tập liên tục (xem Content plan Notion; tập 34 là needle bit → tập mới từ 35).
+- Khung: câu hook (câu hỏi / sai lầm phổ biến) → "Hey, I'm Theresa. Fix Your Foundation, episode NN. <chủ đề>." → các ý First / The middle / And the top… (thao tác cụ thể + vì sao) → 1 câu tổng kết lợi ích → "Follow Fix Your Foundation to master every technique fundamental. I'm Theresa — see you."
+- Script mẫu (ep 32, cone bit): "Are you actually getting the most out of your cone bit? Hey, I'm Theresa. Fix Your Foundation, episode 32. 4 ways to use a carbide cone bit, making the most of every single section on it. First, the bottom section of the bit — use it to remove gel. … One bit, three sections, four different uses — no need to keep switching bits, saving you time and effort throughout the whole process. Follow Fix Your Foundation to master every technique fundamental. I'm Theresa — see you."
+
+### Salon Setup — mở và vận hành tiệm
+- Khung: hook (câu hỏi / con số tiền) → "Hi, I'm Theresa, a salon owner in Toronto" + 1 câu uy tín → "First / Second / Third / Fourth" (mỗi ý 2–3 câu, có lời khuyên làm ngay) → 1 câu chốt thực tế → "Follow me for more salon business tips."
+- Bối cảnh Canada / Toronto (TMI, HST, zoning, Ontario…). Kinh nghiệm riêng của Theresa (doanh thu, số tiệm, chi phí thật) → **[xác nhận]** nếu chưa có trong lời Theresa.
+- Script mẫu (find clients): "How to find clients? Hi, I'm Theresa, a salon owner in Toronto, and I group client sources into four buckets… First is SEO… Second is Social media… Third is ads… And fourth — the cheapest, is your own from old clients… Ask every new client: 'How did you hear about us?' … Follow me for more salon business tips."

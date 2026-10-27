@@ -57,8 +57,10 @@ if run gfx; then
 fi
 
 if run final; then
+  # màu toàn khung: project.json "grade" (chuỗi filter ffmpeg) nếu có, không thì chỉnh nhẹ mặc định
+  GRADE=$(J 'd.get("grade","eq=brightness=0.015:saturation=1.06:contrast=1.03")')
   ffmpeg -v error -y -i "$W/base.mp4" -framerate 30 -i "$W/frames/f_%05d.png" -i "$VOICE" \
-   -filter_complex "[0:v]eq=brightness=0.015:saturation=1.06:contrast=1.03[b];[b][1:v]overlay=0:0:format=auto:eof_action=pass[v];[2:a]highpass=f=80,afftdn=nf=-25,acompressor=threshold=-18dB:ratio=3:attack=5:release=80,loudnorm=I=-14:TP=-1.5:LRA=11[a]" \
+   -filter_complex "[0:v]$GRADE[b];[b][1:v]overlay=0:0:format=auto:eof_action=pass[v];[2:a]highpass=f=80,afftdn=nf=-25,acompressor=threshold=-18dB:ratio=3:attack=5:release=80,loudnorm=I=-14:TP=-1.5:LRA=11[a]" \
    -map "[v]" -map "[a]" -c:v libx264 -preset slow -crf 21 -maxrate 6M -bufsize 12M -pix_fmt yuv420p \
    -c:a aac -b:a 192k -movflags +faststart -t "$DUR" "$W/final.mp4"
   ffmpeg -v error -y -i "$W/final.mp4" -vf "fps=1/6,scale=240:-1,tile=7x2" -frames:v 1 "$W/final_sheet.jpg"

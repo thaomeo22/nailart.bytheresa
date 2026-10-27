@@ -4,21 +4,67 @@
   "language": "en",
   "ngon_ngu_chat": "vi",
   "chu_kenh": {
-    "mo_ta": "Chủ kênh nail [xác nhận: nghề, số năm kinh nghiệm, nơi sống / làm việc — chủ kênh chưa cung cấp]",
-    "xung_ho": "I – you, giọng thân mật như nói chuyện với bạn bè"
+    "ten": "Theresa",
+    "mo_ta": "Theresa — nail educator, chủ 2 tiệm nail ở Toronto",
+    "xung_ho": "I – you, giọng thân mật như nói chuyện với bạn bè; tự giới thiệu \"Hi, I'm Theresa, a salon owner in Toronto\" / \"Hey, I'm Theresa\""
   },
   "kenh_mau": [
-    {"ten": "Krystal Oh", "url": "https://www.youtube.com/channel/UCZjy7LamZd5pMW7O0JF_3Nw/videos", "mang": "kinh doanh tiệm + vlog"},
-    {"ten": "NailKnowHow by Julie Ventura", "url": "https://www.youtube.com/channel/UC6wnJ9f-7aMHikVBNyIssEw/videos", "mang": "kỹ thuật"},
-    {"ten": "nailed by dache", "url": "https://www.youtube.com/channel/UCFTHiHoDK_8-IqcirrY_r2w/videos", "mang": "mẫu nails"}
+    {
+      "ten": "Krystal Oh",
+      "url": "https://www.youtube.com/channel/UCZjy7LamZd5pMW7O0JF_3Nw/videos",
+      "mang": "kinh doanh tiệm + vlog"
+    },
+    {
+      "ten": "NailKnowHow by Julie Ventura",
+      "url": "https://www.youtube.com/channel/UC6wnJ9f-7aMHikVBNyIssEw/videos",
+      "mang": "kỹ thuật"
+    },
+    {
+      "ten": "nailed by dache",
+      "url": "https://www.youtube.com/channel/UCFTHiHoDK_8-IqcirrY_r2w/videos",
+      "mang": "mẫu nails"
+    }
   ],
   "content_plan_sheet_id": "",
-  "video": {"khung": "1080x1920", "do_dai_giay": [30, 60], "y_chinh": "2-3"},
-  "caption": {"hashtag_mac_dinh": ["#nails", "#nailart", "#nailtech", "#nailsalon", "#nailinspo", "#nailbusiness"]},
+  "video": {
+    "khung": "1080x1920",
+    "do_dai_giay": [
+      30,
+      60
+    ],
+    "y_chinh": "2-3"
+  },
+  "caption": {
+    "hashtag_mac_dinh": [
+      "#nails",
+      "#nailart",
+      "#nailtech",
+      "#nailsalon",
+      "#nailinspo",
+      "#nailbusiness"
+    ]
+  },
   "drive": {
     "goc": "1sgBkRYohsTArxElwRSLP1rK-9ljts6jI",
     "ke_hoach": "1QcKERdmWkw89NmuWk1TVPkxjNgPzCWdB",
     "final_video": "1YdU_ZEICUoNYxH4mE5kDyDRpi2qu63SY"
   },
-  "ban_do_url": "https://claude.ai/artifact/85ZyGywYSDKaD2NUWFyNEP"
+  "ban_do_url": "https://claude.ai/artifact/85ZyGywYSDKaD2NUWFyNEP",
+  "content_plan": {
+    "loai": "notion",
+    "url": "https://app.notion.com/p/39e82b24725280c6a801f52a663e49e8?v=69fbd609d9a648d9a92afcc3e6c3823f",
+    "ghi_chu": "Trang công khai: đọc bằng notion.so/api/v3 (loadPageChunk + queryCollection), cột Pillar = series, Voiceover Script = lời"
+  },
+  "series": [
+    {
+      "ten": "Fix Your Foundation",
+      "loai": "kỹ thuật nền tảng cho thợ nail",
+      "tap_gan_nhat": 34
+    },
+    {
+      "ten": "Salon Setup",
+      "loai": "mở và vận hành tiệm nail"
+    }
+  ],
+  "lich": "Xen kẽ Fix Your Foundation và Salon Setup"
 }

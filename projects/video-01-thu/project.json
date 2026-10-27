@@ -1,0 +1,20 @@
+{
+  "title": "6 things to check before putting down the deposit (Salon Setup)",
+  "series": "Salon Setup",
+  "drive_folder": "1QcKERdmWkw89NmuWk1TVPkxjNgPzCWdB",
+  "voice": {"name": "voice.MP3", "drive_id": "1znEP2QmNuYQIo-Wrz8dbUqDAMUr36B7X"},
+  "sources": {
+    "IMG_3714.MOV": "1jf7LjH61Us3I4Hc-BOn9WMHXpMHhBGIE",
+    "IMG_3714_2.MOV": "1Kfuhmo3BiXb6lqyJzSk7O8U0ZYsQ80iv",
+    "IMG_3717.MOV": "1loKIVt5SH_3QSJ-4F_JcJyOYLiXusFMT",
+    "IMG_3718.MOV": "1LgSNLsAGW5BXi-7hpiZu_LWLqCltk_Dy",
+    "IMG_3719.MOV": "12-OKw-pvFxZRmQpiWmFIJTxfGTrlgSZA",
+    "IMG_3623.MOV": "1VHxSYxIGezR9619eIMxYczn66-L3e4A1",
+    "IMG_3622.MOV": "14DnnxzMy6FKc6vPZDk52D4EnkN0Ogssy",
+    "IMG_3621.MOV": "11D-UPHnw65tcm5DSaUbxHVtwNim71WeB",
+    "IMG_3638.MOV": "1CyvkW8MPWHi_AHSp7NSGrjCqexdrYHte"
+  },
+  "sample_video": "1KOKjyDPRQPGqhLztdnfVx1RBA9OFnYq4",
+  "asr_prompt": "Theresa, salon owner in Toronto, zoning, TMI, pedicure chairs, lease",
+  "grade": "colortemperature=temperature=4200:mix=0.7,eq=saturation=1.1:contrast=1.05,vignette=angle=PI/4.5"
+}
