@@ -1,5 +1,10 @@
 work/
 .cache/
+
+
 __pycache__/
-*.pyc
-node_modules/
+*.mp4
+*.mov
+*.MOV
+*.m4a
+*.wav
