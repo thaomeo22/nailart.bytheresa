@@ -2,8 +2,14 @@
   "title": "Salon Setup — Choosing an online booking system (part 1: 7 things to check)",
   "series": "Salon Setup",
   "drive_folder": "1QcKERdmWkw89NmuWk1TVPkxjNgPzCWdB",
-  "voice": {"name": "voice.m4a", "drive_id": "1-8Sv3WcqQ8YRJVgyD68jUzyJVa0YrQBl", "ghi_chu": "tách từ video thô booking .mp4"},
-  "sources": {"booking.mp4": "1-8Sv3WcqQ8YRJVgyD68jUzyJVa0YrQBl"},
+  "voice": {
+    "name": "voice.m4a",
+    "drive_id": "1ECHYi_BXgYezlCTZIvfoJJ4sxjCMxqNc",
+    "ghi_chu": "tách từ booking1..mp4 (bản đã tắt âm thanh nền; bản cũ booking .mp4 còn tiếng nền)"
+  },
+  "sources": {
+    "booking1.mp4": "1ECHYi_BXgYezlCTZIvfoJJ4sxjCMxqNc"
+  },
   "asr_prompt": "Theresa, salon owner in Toronto, booking app, booking system, deposit, no-shows, payroll",
   "grade": "null",
   "theme": "salon_setup"
