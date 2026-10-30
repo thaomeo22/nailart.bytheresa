@@ -60,7 +60,8 @@ if run final; then
   # màu toàn khung: project.json "grade" (chuỗi filter ffmpeg) nếu có, không thì chỉnh nhẹ mặc định
   GRADE=$(J 'd.get("grade","eq=brightness=0.015:saturation=1.06:contrast=1.03")')
   VOICE_FX="highpass=f=80,afftdn=nf=-25,acompressor=threshold=-18dB:ratio=3:attack=5:release=80"
-  if [ -s "$W/sfx.json" ]; then
+  # SFX chỉ bật khi project.json có "sfx": true (chủ kênh 30/10: hiện tại không cần hiệu ứng âm thanh)
+  if [ "$(J 'd.get("sfx", False)')" = "True" ] && [ -s "$W/sfx.json" ]; then
     # hiệu ứng âm thanh (graphics.py → sfx.json): trộn dưới giọng rồi chuẩn hoá loudness cả bản mix
     python3 "$ROOT/pipeline/sfx.py" "$W/sfx.json" "$DUR" "$W/sfx.wav"
     AIN=(-i "$W/sfx.wav"); AMIX="[2:a]$VOICE_FX[vo];[vo][3:a]amix=inputs=2:normalize=0:duration=first,loudnorm=I=-14:TP=-1.5:LRA=11[a]"

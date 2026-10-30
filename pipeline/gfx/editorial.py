@@ -23,10 +23,10 @@ def load_words(transcript_path, lines_path):
         ws = seg["words"]
         assert len(cw) == len(ws), f"dòng {si + 1}: {len(cw)} từ, Whisper có {len(ws)} từ"
         out += [{"s": w["s"], "e": w["e"], "w": c, "seg": si} for w, c in zip(ws, cw)]
-    # Whisper tách số thành nhiều token ("$5" ",000", "40" "%") — gộp lại để phụ đề hiện "$5,000", "40%"
+    # Whisper tách số / từ ghép thành nhiều token ("$5" ",000", "40" "%", "no" "-shows") — gộp lại để phụ đề hiện "$5,000", "40%"
     merged = []
     for w in out:
-        if merged and w["w"][:1] in ",.%" and w["seg"] == merged[-1]["seg"] and merged[-1]["w"][-1:].isdigit():
+        if merged and w["seg"] == merged[-1]["seg"] and (w["w"][:1] == "-" or (w["w"][:1] in ",.%" and merged[-1]["w"][-1:].isdigit())):
             merged[-1] = dict(merged[-1], w=merged[-1]["w"] + w["w"], e=w["e"])
         else:
             merged.append(w)

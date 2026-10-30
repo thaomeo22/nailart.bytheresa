@@ -39,6 +39,7 @@
 - Kết: "✦ @nailart.bytheresa" ở dưới.
 
 ## Âm thanh
+- **30/10: chủ kênh nói hiện tại KHÔNG cần hiệu ứng âm thanh** → mặc định tắt; chỉ bật khi được yêu cầu (`"sfx": true` trong project.json).
 - **Hiệu ứng âm thanh (SFX)** như video mẫu — tự tổng hợp trong `pipeline/sfx.py` (không dùng file có bản quyền), đặt bằng `cue(t, tên)` trong graphics.py:
   - Hook: `impact` + `whoosh` ở 0s, `pop` khi chữ to bật ra, `chaching` cho sticker tiền, `shimmer` khi vẽ elip.
   - Thẻ tiêu đề: `whoosh` + `shimmer`. Mỗi mục mới: `whoosh` + `pop` (chip hiện). Số tiền: `coin`. Ghi chú cần chú ý: `pop` / `swish` / `shimmer`. Kết: `pop`, `ding` ở "Bye".
