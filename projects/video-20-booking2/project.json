@@ -1,0 +1,11 @@
+{
+  "title": "Salon Setup — Choosing an online booking platform (part 2: my $20,000 story)",
+  "series": "Salon Setup",
+  "drive_folder": "1QcKERdmWkw89NmuWk1TVPkxjNgPzCWdB",
+  "voice": {"name": "voice.m4a", "drive_id": "1KASpvCjQHtg8chpni8JJrz4yEbBnEHOz", "ghi_chu": "tách từ video thô bookingplatform2.mp4"},
+  "sources": {"booking2.mp4": "1KASpvCjQHtg8chpni8JJrz4yEbBnEHOz"},
+  "proof": {"drive_id": "1GEu6OOwU4j-x6nfOyO4cb8rgAh-6fgE7", "ghi_chu": "proof-freeyearclientfee.png — chỉ dùng phần ưu đãi; đã cắt bỏ link/chữ ký/SĐT, che tên nền tảng và tên sản phẩm (work/video-20-booking2/proof/)"},
+  "asr_prompt": "Theresa, salon owner in Toronto, booking platform, new client fee, marketplace, refunded, SalonPilot",
+  "grade": "null",
+  "theme": "salon_setup"
+}

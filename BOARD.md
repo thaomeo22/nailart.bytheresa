@@ -22,6 +22,7 @@
 | 17 | SS — Vốn ban đầu mở tiệm | Script đợt #2 → chờ số thật + thu voice | Doc "Script đợt 27/10 #2" | [xác nhận $] |
 | 18 | SS — Monthly operating costs (14 costs) | Final, chờ góp ý | Notion | Video thô "14 cost.mp4" chủ kênh tự dựng; giữ cảnh + màu gốc |
 | 19 | SS — Choosing online booking (part 1: 7 things) | Final (làm lại từ booking1), chờ góp ý | Notion | Video thô "booking1..mp4" (đã tắt nền); giữ cảnh + màu gốc; không SFX |
+| 20 | SS — Choosing online booking (part 2: $20,000 story) | Final, chờ góp ý | Notion | Video thô "bookingplatform2.mp4"; ảnh email đã che tên doanh nghiệp; thẻ app Salon Pilot (logo vẽ lại SVG); không SFX |
 
 ## Nhật ký việc
 | Ngày | Agent | Việc |
@@ -37,3 +38,4 @@
 | 27/10/2026 | dựng video | Video 18 (14 costs): phụ đề + đồ hoạ branding Salon Setup (Montserrat/Open Sans, #ff802e), giữ màu gốc; QA đạt, gửi trong chat |
 | 30/10/2026 | dựng video | Video 19 (booking p1): phụ đề + đồ hoạ branding Salon Setup, không SFX (chủ kênh: hiện tại không cần); QA đạt, gửi trong chat |
 | 30/10/2026 | dựng video | Video 19 làm lại từ "booking1..mp4" (bản cũ còn tiếng nền); đồ hoạ giữ nguyên, không SFX; QA đạt |
+| 31/10/2026 | dựng video | Video 20 (booking p2): proof email cắt + che (tên nền tảng, tên sản phẩm, người gửi, link, SĐT), thẻ app Salon Pilot, không SFX; QA đạt |

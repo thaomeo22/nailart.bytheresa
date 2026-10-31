@@ -11,6 +11,11 @@
 - **Giữ nguyên màu gốc của video** (`project.json` → `"grade": "null"`), không chỉnh màu, không làm đẹp.
 - Video thô chủ kênh đã tự dựng sẵn cảnh (vd "14 cost.mp4"): giữ nguyên cảnh và thứ tự, chỉ chuẩn hoá 1080×1920@30 (edl 1 dòng, zoom 0) rồi thêm đồ hoạ + phụ đề.
 
+## Ảnh bằng chứng / tên doanh nghiệp khác (chủ kênh, 31/10)
+- Ảnh chụp màn hình của doanh nghiệp khác: **chỉ giữ phần cần chứng minh**, cắt bỏ chữ ký, link, số điện thoại, email; **che kín** tên doanh nghiệp, tên sản phẩm, tên người (thanh đen bo góc). Dùng OCR (tesseract) để lấy đúng vị trí chữ.
+- Có dòng nhỏ "business info hidden" dưới ảnh. Phóng to dòng quan trọng để đọc được trên điện thoại.
+- App Salon Pilot (của bạn chủ kênh) được nhắc tên + logo (ô teal bo góc, nét cong trắng có chấm) — xem `projects/video-20-booking2/graphics.py`.
+
 ## Khung hình
 - 1080×1920, 30fps, dài đúng bằng voice.
 - **Cảnh theo thứ tự thời gian quay** (`creation_time`): chạy hết clip này rồi mới sang clip khác, **không cắt xen kẽ**, không quay lại clip cũ.
