@@ -1,0 +1,2 @@
+# Video thô đã dựng sẵn cảnh — giữ nguyên, chỉ chuẩn hoá 1080x1920@30, không zoom, không chỉnh màu
+01 clients.mp4 0 58.60 0

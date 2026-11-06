@@ -1,0 +1,10 @@
+{
+  "title": "Salon Setup — How to find clients (4 client sources)",
+  "series": "Salon Setup",
+  "drive_folder": "1QcKERdmWkw89NmuWk1TVPkxjNgPzCWdB",
+  "voice": {"name": "voice.m4a", "drive_id": "1uTdGsokFGd5QcSOoc7bbZTe_jdlBhGqi", "ghi_chu": "tách từ video thô client sourse.mp4 (voice đã lồng)"},
+  "sources": {"clients.mp4": "1uTdGsokFGd5QcSOoc7bbZTe_jdlBhGqi"},
+  "asr_prompt": "Theresa, salon owner in Toronto, client sources, SEO, nail salon near me, cost per booking, rebook",
+  "grade": "null",
+  "theme": "salon_setup"
+}
